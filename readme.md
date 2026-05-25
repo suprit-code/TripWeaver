@@ -15,7 +15,7 @@ A hybrid travel itinerary planner that uses natural language constraints, LLM-ba
   7. Run POI scheduling with Z3 solver and optimizer
   8. Produce the final travel plan with POI scheduling
 
-![Methodology diagram](assets/methodology.jpg)
+<img src="assets/methodology.jpg" alt="Methodology diagram" height="700" />
 
 ## 📁 Repo Structure
 
