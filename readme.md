@@ -19,7 +19,7 @@ A hybrid travel itinerary planner that uses natural language constraints, LLM-ba
 
 ## 📁 Repo Structure
 
-- `Test_TravelPlanner.py`: main workflow and pipeline implementation.
+- `run_planner.py`: main workflow and pipeline implementation.
 - `z3_code_execution.py`: execute generated code in parallel across query batch outputs.
 - `z3_temporal_scheduler.py`: temporal POI scheduling and itinerary optimization.
 - `z3_temporal_scheduler_with_relaxation.py`: temporal POI scheduling with relaxation using soft constraints for more flexible schedule generation.
@@ -68,7 +68,7 @@ A hybrid travel itinerary planner that uses natural language constraints, LLM-ba
 ### 1. Running the code generation and planner workflow
 
 ```bash
-python Test_TravelPlanner.py --set_type 3d --model_name phi
+python run_planner.py --set_type 3d --model_name phi
 ```
 
 **Arguments:**
